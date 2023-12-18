@@ -11,5 +11,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Echo Hello World
-        run: echo "Hello World"
+        uses: echo "Hello World"
 ```
